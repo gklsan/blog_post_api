@@ -53,3 +53,5 @@ gem 'devise-jwt'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'pry'
 gem 'pry-rails'
+gem 'jsonapi-serializer'
+

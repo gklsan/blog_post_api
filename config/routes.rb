@@ -10,7 +10,9 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api, default: { format: :json } do
     namespace :v1 do
-      resources :posts
+      resources :posts do
+        resources :comments
+      end
     end
   end
 end
